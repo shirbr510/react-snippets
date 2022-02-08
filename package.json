@@ -5,7 +5,7 @@
   "homepage": "http://shirbr510.github.io/react-snippets",
   "main": "index.js",
   "scripts": {
-    "test": "npm run storybook",
+    "start": "npm run storybook",
     "predeploy": "npm run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static",
     "storybook": "start-storybook -p 6006",
